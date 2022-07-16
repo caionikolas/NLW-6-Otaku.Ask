@@ -16,17 +16,18 @@ header {
   grid-area: left;
 
   background: url('../assets/home-bg-img.png') no-repeat top/contain;
+  background-position-x: 17rem;
 }
 
 main {
   grid-area: right;
-
+  margin-top: -12rem;
   display: flex;
   align-items: center;
 }
 
-main.container {
-  width: min(36.3rem 100%);
+main .container {
+  width: min(36.3rem, 100%);
 }
 
 main h2 {
@@ -44,4 +45,25 @@ input {
 input, button, .button {
   width: 100%;
   margin-bottom: 1.8rem;
+}
+
+/* separetor line */
+.separator {
+  display: flex;
+  align-items: center;
+}
+
+.separator div:nth-child(2){
+  color: var(--grey-blue);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  padding: 0 1.35rem;
+  line-height: 0;
+}
+
+.separator div:nth-child(1),
+.separator div:nth-child(3){
+  background: var(--grey-blue);
+  width: 100%;
+  height: 1px;
 }
