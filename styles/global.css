@@ -10,7 +10,7 @@ html{
   /*cores */
   --black: #0d114f;
   --white: #fafafa;
-  --red: #383f5b;
+  --red: #E83f5b;
   --light-blue: #e0ecff;
   --blue: #3485ff;
   --background: #f6faff;
@@ -57,8 +57,8 @@ body, button, input, textarea {
 
 /* input and buttons */
 button, input, .button {
-  height: 5rem;
   border-radius: .8rem;
+  height: 5rem;
 }
 
 button, .button {
@@ -70,7 +70,7 @@ button, .button {
   align-items: center;
   justify-content: center;
 
-  background: var(--blue);
+  background: var(--red);
   color: var(--white);
 
   transition: filter .2s;
@@ -90,8 +90,8 @@ button > img .button > img {
 button.outlined,
 .button.outlined {
   background: var(--white);
-  color: var(--blue);
-  border: .2rem solid var(--blue);
+  color: var(--red);
+  border: .2rem solid var(--red);
 }
 
 .content header {
