@@ -122,6 +122,20 @@ button.outlined,
   border: .2rem solid var(--red);
 }
 
+button.blue,
+.button.blue {
+  background: var(--blue);
+  color: var(--white);
+}
+
+button.grey,
+.button.grey {
+  background: var(--grey-light);
+  color: var(--grey-dark);
+}
+
+/* header */
+
 .content header {
   width: 80%;
   margin: 3.5rem auto;
