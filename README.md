@@ -25,7 +25,7 @@
 
 ### &emsp; &emsp; Description 📖
 
-  Um Projeto de site fictício de perguntas sobre a cultura japonesa em geral tendo como base tudo que aprendi durante a NLW 6 Origin
+  Um Projeto de site fictício de perguntas sendo possível criar uma sala para internautas anônimos fazerem perguntas sobre a cultura japonesa em geral, tendo como base tudo que aprendi durante a NLW 6 Origin
   
 ##
 
